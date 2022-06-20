@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int initialbalance = 100;
+        int initialBalance = 100;
         int replenishment = 5000;
         int bonus;
 
@@ -11,7 +11,7 @@ public class Main {
             bonus = 0;
         }
 
-        int balance = initialbalance + replenishment + bonus;
+        int balance = initialBalance + replenishment + bonus;
         System.out.println("Баланс: " + balance + "  Бонус: " + bonus +"");
     }
 
